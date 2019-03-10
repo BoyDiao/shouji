@@ -6,41 +6,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
 
     <title>Hello, world!</title>
   </head>
   <body>
 	<div class="wrapper">
     <header>
-        <nav>
-          <div class="menu-icon">
-            <i class="fa fa-bars fa-2x"></i>
-          </div>
-          <div class="logo">
-            LOGO
-          </div>
-          <div class="menu">
-            <ul>
-              <li><a href="#">Home</a></li>
-              <li><a href="#">About</a></li>
-              <li><a href="#">Blog</a></li>
-              <li><a href="#">Contact</a></li>
-            </ul>
-          </div>
+        <nav class="navbar navbar-default" role="navigation">
+            <div class="container-fluid"> 
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse"
+                        data-target="#example-navbar-collapse">
+                    <span class="sr-only">切换导航</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#" style="color:black; font-weight: bold;">手机进化论</a>
+            </div>
+            <div class="collapse navbar-collapse" id="example-navbar-collapse">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#">IOS</a></li>
+                    <li><a href="#">ANDROID</a></li>
+                </ul>
+            </div>
+            </div>
         </nav>
     </header>
-    <div class="content">
-      <p>
-        asdasdasd
-      </p>
-      <p>
-          asdasdasd
-        </p>
-        <p>
-            asdasdasd
-          </p>
-    </div>
+    <style>
+    .block img{
+      height: 100px;
+    width: auto;
+    padding-bottom: 10px;
+    }
+    </style>
+    <div class="wizard"><div class="wizard__main"><div><div class="col-md-6 col-sm-6 col-xs-6 block" id="iPhone"><div><img class="img img-responsive img-center" alt="iPhone" src="images/iPhone10,6.png" data-src="images/iPhone10,6.png"></div><p>iPhone</p></div><div class="col-md-6 col-sm-6 col-xs-6 block" id="iPad"><div><img class="img img-responsive img-center" alt="iPad" src="images/iPad8,7.png" data-src="images/iPad8,7.png"></div><p>iPad</p></div><div class="col-md-6 col-sm-6 col-xs-6 block" id="iPod"><div><img class="img img-responsive img-center" alt="iPod" src="images/iPod5,1.png" data-src="images/iPod5,1.png"></div><p>iPod</p></div><div class="col-md-6 col-sm-6 col-xs-6 block" id="AppleTV"><div><img class="img img-responsive img-center" alt="AppleTV" src="images/AppleTV5,3.png" data-src="images/AppleTV5,3.png"></div><p>AppleTV</p></div><div class="col-md-6 col-sm-6 col-xs-6 block" id="iTunes"><div><img class="img img-responsive img-center" alt="iTunes" src="images/iTunes.png" data-src="images/iTunes.png"></div><p>iTunes</p></div><div class="col-md-6 col-sm-6 col-xs-6 block" id="Apple Watch"><div><img class="img img-responsive img-center" alt="Apple Watch" src="images/Watch3,1.png" data-src="images/Watch3,1.png"></div><p>Apple Watch</p></div></div></div></div>
   </div>	
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
